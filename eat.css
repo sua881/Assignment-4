@@ -1,0 +1,180 @@
+body {
+  background-color: #a3d5d3;
+}
+
+#rectangle {
+  position: absolute;
+  background-color: #f9e03c;
+  left: 10%;
+  top: 20%;
+  width: 50px;
+  height: 300px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+
+#rectangle2 {
+  position: absolute;
+  background-color: #f9e03c;
+  left: 10%;
+  top: 20%;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#rectangle3 {
+  position: absolute;
+  background-color: #f9e03c;
+  left: 0%;
+  top: 250%;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#rectangle3 {
+  position: absolute;
+  background-color: #f9e03c;
+  left: 0%;
+  top: 250%;
+  width: 200px;
+  height: 50px;
+  animation-name: loop;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background-color: yellow;
+  animation-name: example;
+  animation-duration: 4s;
+  position: relative;
+
+}
+
+#triangle
+ {
+  position: absolute;
+  background-color: #f7876d;
+  left: 310%;
+  top: -240%;
+  width: 200px;
+  height: 300px;
+  background-color: #f7876d;
+  animation-name: hello;
+  animation-duration: 4s;
+}
+
+#triangle2 {
+  position: absolute;
+  background-color: #a3d5d3;
+  left: 340%;
+  top: 90%;
+  width: 75px;
+  height: 140px;
+
+}
+
+}
+#triangle3 {
+  position: absolute;
+  background-color: #a3d5d3;
+  left: 340%;
+  top: -150%;
+  width: 75px;
+  height: 70px;
+  background-color: orange;
+  animation-name: hello;
+  animation-duration: 4s;
+}
+
+#rectangle4 {
+  position: absolute;
+  background-color: #98c185;
+  left: 640%;
+  top: -230%;
+  width: 55px;
+  height: 300px;
+  background-color: orange;
+  animation-name: bye;
+  animation-duration: 4s;
+}
+
+#rectangle5 {
+  position: absolute;
+  background-color: #98c185;
+  left: 605%;
+  top: -230%;
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  animation-name: bye;
+  animation-duration: 4s;
+}
+
+
+@keyframes example
+
+{
+  0%   {background-color: #8135c4;}
+  25%  {background-color: #b36bb0;}
+  50%  {background-color: #d23ddb;}
+  100% {background-color: #b79ee8;}
+}
+
+@keyframes hello {
+    0%   {background-color: #3b7d2a;}
+    25%  {background-color: #86e024;}
+    50%  {background-color: #99e7a2;}
+    100% {background-color: #64ff5c;}
+}
+    @keyframes bye {
+      0%   {background-color: #e999a6;left:0px; top:0px;}
+      25%  {background-color: #f2613a;left:210px; top:0px;}
+      50%  {background-color: #cb1c2b;left:200px; top:200px;}
+      100% {background-color: #ffc3c3;left:0px; top:200px;}
+    }
+
+    .button {
+    	position: relative;
+    	width: 400px;
+    	height: 400px;
+    	left: calc((100vw - 400px) /2);
+    	border-radius: 30px;
+    	margin-top: calc((100vh - 750px) /4.5);
+    }
+
+    .button_style
+    {
+    background-color: #a3d5d3;
+    }
+
+    .animation {
+    	animation-name: skew;
+    	animation-duration: 4s;
+    }
+
+    @keyframes skew {
+      0% {
+        transform: skewX(20deg);
+      }
+      100% {
+        transform: skewX(-20deg);
+      }
+    }
+
+
+    #X{
+    	color:black;
+    }
+
+    #O{
+    	color:black;
+    }
+    #question{
+    	color:black;
+    }
